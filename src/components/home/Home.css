@@ -1,20 +1,81 @@
 .body {
     min-height: 100vh;
 }
-.background {
-    display: flex;
-    gap: 5px;
-    flex-wrap: wrap;
+.container1 {
+    position: relative;
+    height: 70vh;
+    /* border: 1px solid red; */
+    flex-direction: column;
+    /* box-shadow: rgba(14, 145, 112, 0.2) 0px -50px 200px -58px inset; */
 }
-.background {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container1 h1 {
+    color: var(--color3);
+    font-size: 120px;
 }
-.colorBox{
-    background-color: rgba(255, 255, 255, 0.1);
-    width: 100px;
-    height: 100px;
-    overflow: hidden;
-    border: 2px solid rgb(0, 0, 85);
+.container1 h2 {
+    color: var(--color2);
+}
+.search-box {
+    position: absolute;
+    left: 50%;
+    bottom: -30px;
+    transform: translateX(-50%);
+}
+.search-box input{
+    width: 600px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--color2);
+    outline: none;
+    padding: 0 50px;
+    color: black;
+    font-size: 20px;
+}
+.search-box .icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 60px;
+    height: 60px;
+}
+.search-box .icon i{
+    color: gray;
+    font-size: 20px;
+}
+.search-box .search-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding:10px;
+    width: 120px;
+    height: 60px;
+}
+.search-box .search-btn button{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background-color: var(--color3);
+    font-weight: bold;
+    border-radius: 10px;
+    color: black;
+}
+.container1 .shadow {
+    position: absolute;
+    bottom: 100px;
+    width: 95%;
+    box-shadow: 20px 20px 100px 40px rgba(21, 187, 129, 0.2);
+}
+.container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+}
+.container2 .box {
+    min-width: 300px;
+    height: 400px;
+    background-color: rgba(64, 64, 64, 0.1);
+    border-radius: 10px;
 }
