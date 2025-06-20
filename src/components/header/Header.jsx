@@ -11,9 +11,8 @@ const Header = () => {
     Array.from(header_elements).forEach(ele => {
       ele.addEventListener('click', function() {
         const curr_active = document.querySelector('.header-btn.active');
-        if (curr_active)
-          curr_active.classList.remove('active');
-        ele.classList.add('active')
+        curr_active.classList.remove('active');
+        this.classList.add('active')
       })
     });
 
