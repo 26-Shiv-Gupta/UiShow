@@ -1,11 +1,12 @@
 .body {
-    min-height: 100vh;
+    min-height: 200vh;
 }
 .container1 {
     position: relative;
     height: 70vh;
     /* border: 1px solid red; */
     flex-direction: column;
+    z-index: 1;
     /* box-shadow: rgba(14, 145, 112, 0.2) 0px -50px 200px -58px inset; */
 }
 .container1 h1 {
@@ -61,7 +62,7 @@
     border-radius: 10px;
     color: black;
 }
-.container1 .shadow {
+.shadow {
     position: absolute;
     bottom: 100px;
     width: 95%;
@@ -72,6 +73,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
     padding: 10px;
+    position: relative;
 }
 .container2 .box {
     min-width: 300px;
@@ -79,3 +81,41 @@
     background-color: rgba(64, 64, 64, 0.1);
     border-radius: 10px;
 }
+.container2 .shadow {
+    bottom: 50px;
+    box-shadow: 20px 20px 90px 50px rgba(11, 12, 16, 1);
+}
+.container2 .browse-btn {
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: var(--color3);
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 10px;
+    cursor: pointer;
+}
+.container3 {
+    min-height: 400px;
+    gap: 100px;
+}
+.container3 .box {
+    flex-direction: column;
+    font-size: 40px;
+    color: gray;
+}
+.container3 .box h2 {
+    font-size: 70px;
+    color: #fff;
+}
+.container3 .box h3 {
+    font-size: 20px;
+}   
+
