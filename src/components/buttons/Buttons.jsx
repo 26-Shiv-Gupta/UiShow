@@ -7,30 +7,20 @@ import Button4 from './Button4'
 import Button5 from './Button5'
 
 const Buttons = () => {
+  const elements = [
+    <Button1 />, <Button2 />, <Button3 />, <Button4 />, <Button5 />
+  ]
+
   return (
-    <div className='buttons-main-container'>
-      <div className='button-container'>
-        <Button1 />
-      </div>
-      <div className='button-container'>
-      <Button2 />
-      </div>
-      <div className='button-container'>
-        <Button3 />
-      </div>
-      <div className='button-container'>
-        <Button4 />
-      </div>
-      <div className='button-container'>
-        <Button5 />
-      </div>
-      <div className='button-container'></div>
-      <div className='button-container'></div>
-      <div className='button-container'></div>
-      <div className='button-container'></div>
-      <div className='button-container'></div>
-      <div className='button-container'></div>
-    </div>
+    <>
+            <div className="comp-container">
+                {elements.map((ele, index)=> (
+                    <div className='ele-container Button-container'>
+                        {ele}
+                    </div>
+                ))}
+            </div>
+        </>
   )
 }
 

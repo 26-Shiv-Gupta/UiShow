@@ -15,4 +15,7 @@
     min-height: 300px;
     border-radius: 10px;
     background-color: rgb(38, 37, 37);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

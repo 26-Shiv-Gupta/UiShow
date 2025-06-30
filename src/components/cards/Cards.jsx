@@ -16,7 +16,7 @@ import Card12 from './Card12'
 const Cards = () => {
 
   const elements = [
-    <Card1 />, <Card2 />, <Card3 />, <Card4 />, <Card5 />, <Card6 />, <Card8 />, <Card9 />, <Card10 />
+    <Card1 />, <Card2 />, <Card3 />, <Card4 />, <Card5 />, <Card6 />, <Card7 />, <Card8 />, <Card9 />, <Card10 />, <Card11 />, <Card12 />
   ]
 
   return (
