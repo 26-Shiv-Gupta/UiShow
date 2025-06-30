@@ -14,49 +14,21 @@ import Card11 from './Card11'
 import Card12 from './Card12'
 
 const Cards = () => {
-  console.log("cards")
+
+  const elements = [
+    <Card1 />, <Card2 />, <Card3 />, <Card4 />, <Card5 />, <Card6 />, <Card8 />, <Card9 />, <Card10 />
+  ]
+
   return (
-    <div className='cards-main-container'>
-      <div className='card-container'>
-        <Card1 />
-      </div>
-      <div className='card-container'>
-        <Card2 />
-      </div>
-      <div className='card-container'>
-        <Card3 />
-      </div>
-      <div className='card-container'>
-        <Card4 />
-      </div>
-      <div className='card-container'>
-        <Card5 />
-      </div>
-      <div className='card-container'>
-        <Card6 />
-      </div>
-      <div className='card-container'>
-        <Card7 />
-      </div>
-      <div className='card-container'>
-        <Card8 />
-      </div>
-      <div className='card-container'>
-        <Card9 />
-      </div>
-      <div className='card-container'>
-        <Card10 />
-      </div>
-      <div className='card-container'>
-        <Card11 />
-      </div>
-      <div className='card-container'>
-        <Card12 />
-      </div>
-      <div className='card-container'>
-        
-      </div>
-    </div>
+    <>
+            <div className="comp-container">
+                {elements.map((ele, index)=> (
+                    <div className='ele-container card-container'>
+                        {ele}
+                    </div>
+                ))}
+            </div>
+        </>
   )
 }
 

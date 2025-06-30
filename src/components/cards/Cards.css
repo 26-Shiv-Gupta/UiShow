@@ -8,12 +8,10 @@
 }
 
 .card-container {
-    background-color: rgb(26, 26, 26);
     height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-width: 270px;
     overflow: hidden;
 }
 

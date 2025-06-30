@@ -1,16 +1,14 @@
-.App {
-    background-color: var(--bg-color);
-}
-
-.comp-container {
+.loading-container {
     min-height: 100vh;
     padding: 80px 40px 40px 40px;
+    border: 1px solid red;
+    /* width: 100vw; */
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     justify-content: center;
     gap: 10px;
 }
-.ele-container {
+.element-container {
     min-width: 300px;
     min-height: 300px;
     border-radius: 10px;
