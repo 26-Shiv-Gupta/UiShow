@@ -21,14 +21,14 @@ const Cards = () => {
 
   return (
     <>
-            <div className="comp-container">
-                {elements.map((ele, index)=> (
-                    <div className='ele-container card-container'>
-                        {ele}
-                    </div>
-                ))}
-            </div>
-        </>
+      <div className="comp-container">
+        {elements.map((ele, index) => (
+          <div className='ele-container card-container'>
+            {ele}
+          </div>
+        ))}
+      </div>
+    </>
   )
 }
 

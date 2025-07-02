@@ -13,14 +13,14 @@ const Buttons = () => {
 
   return (
     <>
-            <div className="comp-container">
-                {elements.map((ele, index)=> (
-                    <div className='ele-container Button-container'>
-                        {ele}
-                    </div>
-                ))}
-            </div>
-        </>
+      <div className="comp-container">
+        {elements.map((ele, index) => (
+          <div className='ele-container Button-container'>
+            {ele}
+          </div>
+        ))}
+      </div>
+    </>
   )
 }
 

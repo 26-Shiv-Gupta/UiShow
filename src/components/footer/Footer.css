@@ -1,0 +1,21 @@
+.footer-container{
+    padding: 60px;
+    border-top: 1px solid gray;
+}
+.footer-inner-container {
+    width: 100%;
+    /* background-color: yellow; */
+}
+.upper-container{
+    display: grid;
+    grid-template-columns: repeat(5, minmax(200px, 1fr));
+    justify-content: center;   
+
+}
+.footer-box {
+    border: 1px solid gray;
+    align-items: flex-start;
+}
+.footer-box span {
+    color: var(--color3);
+}

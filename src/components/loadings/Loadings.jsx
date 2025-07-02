@@ -10,7 +10,7 @@ const Loadings = () => {
     return (
         <>
             <div className="comp-container">
-                {elements.map((ele, index)=> (
+                {elements.map((ele, index) => (
                     <div className='ele-container'>
                         {ele}
                     </div>

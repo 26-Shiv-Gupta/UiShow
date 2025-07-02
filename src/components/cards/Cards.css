@@ -1,17 +1,5 @@
-.cards-main-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    /* grid-template-rows: 400px; */
-    gap: 20px;
-    padding: 20px;
-    background-color: black;
-}
-
 .card-container {
     height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     overflow: hidden;
 }
 
@@ -19,9 +7,6 @@
     width: 250px;
     height: 330px;
     background-color: rgb(75, 75, 75);
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     position: relative;
     border-radius: 10px;
 }

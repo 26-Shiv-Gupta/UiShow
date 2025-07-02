@@ -1,11 +1,11 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from 'react'
 import './Home.css'
 import Card6 from '../cards/Card6'
 import 'boxicons/css/boxicons.min.css';
 import { Link, NavLink } from 'react-router-dom';
 
 const Home = () => {
-  
+
   return (
     <div className='body'>
 
@@ -15,7 +15,7 @@ const Home = () => {
         <div><h2>The Best UI Collection For Your Websites</h2></div>
         <div className="search-box">
           <div className="icon flex-b-c"> <i className='bx bx-search'></i> </div>
-          <input type="text" placeholder='Search whatever you want to find'/>
+          <input type="text" placeholder='Search whatever you want to find' />
           <div className="search-btn flex-b-c"><button>Search</button></div>
         </div>
         <div className="shadow"></div>
@@ -44,7 +44,7 @@ const Home = () => {
 
       {/* container 4 */}
       <div className="container4">
-        r
+        home container 4
       </div>
 
     </div>
